@@ -1,3 +1,5 @@
 Gemfile.lock
-build/
 deploy.sh
+.sass-cache
+build/
+source/assets/css/
