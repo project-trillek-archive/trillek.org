@@ -23,7 +23,7 @@ Now you can work within the `source` directory without worrying about rebuilding
 You can execute `make deploy` to send the site to the server. This command will simply execute the local `build.sh` file that you have to create. This allows you to select how and where you deploy to.
 
 [trillek.org]: http://trillek.org/
-[marciiF]: http://www.reddit.com/user/marciiF
+[marciiF]: https://cssu.in/
 [Jekyll]: http://jekyllrb.com/
 [SASS]: http://sass-lang.com/
 [Compass]: http://compass-style.org/
