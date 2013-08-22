@@ -18,6 +18,10 @@ make jekyll-server
 
 Now you can work within the `source` directory without worrying about rebuilding. The site will be rebuilt automatically and hosted at http://localhost:4000/ for you.
 
+## Deploying
+
+You can execute `make deploy` to send the site to the server. This command will simply execute the local `build.sh` file that you have to create. This allows you to select how and where you deploy to.
+
 [trillek.org]: http://trillek.org/
 [marciiF]: http://www.reddit.com/user/marciiF
 [Jekyll]: http://jekyllrb.com/
