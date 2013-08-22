@@ -1,0 +1,14 @@
+body {
+	background: $page-background;
+	color: $font-color;
+	font-family: $font-family;
+}
+
+.header {
+	overflow: visible;
+	text-align: center;
+}
+
+.header-banner {
+	@include text-image-replace($header-banner);
+}

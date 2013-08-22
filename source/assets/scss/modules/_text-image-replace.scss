@@ -1,0 +1,11 @@
+@mixin text-image-replace($image) {
+	$image-url: image-url($image);
+
+	@include background-image($image-url);
+
+	overflow: hidden;
+	display: block;
+	height: 0;
+	width: image-width($image);
+	padding-top: image-height($image);
+}

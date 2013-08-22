@@ -1,3 +1,7 @@
 .container {
 	@include container;
 }
+
+.header {
+	@include span-columns($total-columns);
+}

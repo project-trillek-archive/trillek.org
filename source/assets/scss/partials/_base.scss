@@ -3,4 +3,9 @@ $column-width: 4em;
 $gutter-width: 1em;
 $grid-padding: $gutter-width;
 
+$page-background: #000000;
+$font-color: #FFFFFF;
+$font-family: 'Open Sans', sans-serif;
+$header-banner: 'header.jpg';
+
 @import 'modules/all';
