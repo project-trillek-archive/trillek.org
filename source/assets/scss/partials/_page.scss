@@ -5,10 +5,9 @@ body {
 }
 
 .header {
-	overflow: visible;
 	text-align: center;
 }
 
 .header-banner {
-	@include text-image-replace($header-banner);
+	max-width: 100%;
 }
