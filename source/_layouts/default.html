@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset='utf-8'>
-		<title>{{ page.title }}</title>
+		<title>{{ site.name }}</title>
 		<link rel='stylesheet' type='text/css' href='/assets/css/main.css'>
 		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 		<link rel='shortcut icon' href='/favicon.ico'>
@@ -20,26 +20,7 @@
 			</div>
 
 			<div class='content'>
-				<div class='main'>
-					{{ content }}
-				</div>
-
-				<div class='sidebar'>
-					<h2>{{ site.irc.server }}</h2>
-					<p>Come and chat in the following channels:<p>
-
-					<table class='channels'>
-						<tbody>
-							{% for row in site.irc.channels %}
-							<tr>
-								{% for channel in row %}
-								<td>#{{ channel }}</td>
-								{% endfor %}
-							</tr>
-							{% endfor %}
-						</tbody>
-					</table>
-				</div>
+				{{ content }}
 			</div>
 		</div>
 	</body>

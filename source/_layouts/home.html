@@ -2,5 +2,39 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-{{ content }}
+<div class='main'>
+	<h2>{{ page.title }}</h2>
+	{{ content }}
+</div>
+
+<div class='sidebar'>
+	<h2>{{ site.irc.server }}</h2>
+	<p>Come and chat in the following channels:<p>
+	<table>
+		<tbody>
+			{% for row in site.irc.channels %}
+			<tr>
+				{% for channel in row %}
+				<td>#{{ channel }}</td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+	<h2>Useful links</h2>
+	<table>
+		<tbody>
+			{% for row in site.links %}
+			<tr>
+				{% for link in row %}
+				<td><a href='{{ link }}'>{{ link }}</a></td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+	<h2>Contacting us</h2>
+	<p>If you have any serious press or business enquiries, please contact <a href='mailto:info@trillek.org'>info@trillek.org</a></p>
+</div>
