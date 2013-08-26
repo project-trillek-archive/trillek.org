@@ -8,3 +8,13 @@ navigation:
     url: http://blog.trillek.org/
   - label: wiki
     url: http://wiki.trillek.org/
+irc:
+    server: irc.freenode.net
+    channels:
+      -   - trillek
+          - trillek-writers
+      -   - trillek-dev
+          - trillek-sound
+      -   - trillek-dcpu
+          - trillek-blah
+      -   - trillek-art

@@ -8,9 +8,18 @@
 
 .content {
 	$padding: ($total-columns - $content-columns) / 2;
+	$main-columns: $content-columns - $sidebar-columns;
 
 	@include span-columns($content-columns, $total-columns);
 	@include pad($padding, $padding);
 
 	margin-top: 30px;
+
+	.main {
+		@include span-columns($main-columns, $content-columns);
+	}
+
+	.sidebar {
+		@include span-columns($sidebar-columns omega, $content-columns);
+	}
 }
