@@ -1,3 +1,7 @@
+.content {
+	font-size: $content-font-size;
+}
+
 a {
 	color: $link-dark-color;
 	@include transition($link-transition);

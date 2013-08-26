@@ -11,4 +11,6 @@
 
 	@include span-columns($content-columns, $total-columns);
 	@include pad($padding, $padding);
+
+	margin-top: 30px;
 }

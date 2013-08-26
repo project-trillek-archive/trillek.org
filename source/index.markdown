@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Project Trillek
+title: Greetings and Salutations!
 ---
 
 Allow me to introduce Project Trillek, a game inspired by Notch's 0x10c.
