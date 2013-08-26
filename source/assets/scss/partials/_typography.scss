@@ -1,0 +1,8 @@
+a {
+	color: $link-dark-color;
+	@include transition($link-transition);
+
+	&:hover, &:focus {
+		color: $font-color;
+	}
+}

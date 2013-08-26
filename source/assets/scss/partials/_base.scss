@@ -3,8 +3,12 @@ $column-width: 6em;
 $gutter-width: 2em;
 $grid-padding: $gutter-width;
 
+$content-columns: 10;
+
 $page-background: #000000;
 $font-color: #FFFFFF;
+$link-dark-color: #999999;
+$link-transition: color 300ms ease;
 $font-family: 'Open Sans', sans-serif;
 
 @import 'modules/all';

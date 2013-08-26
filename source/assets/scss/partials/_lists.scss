@@ -1,0 +1,16 @@
+.navigation {
+	list-style: none;
+	margin-top: -25px;
+	margin-bottom: 0;
+	padding: 0;
+
+	li {
+		display: inline;
+		margin: 0 10px;
+	}
+
+	a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+}

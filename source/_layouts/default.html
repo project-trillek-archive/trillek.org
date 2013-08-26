@@ -3,7 +3,6 @@
 	<head>
 		<meta charset='utf-8'>
 		<title>{{ page.title }}</title>
-		<meta name='viewport' content='width=device-width'>
 		<link rel='stylesheet' type='text/css' href='/assets/css/main.css'>
 		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 		<link rel='shortcut icon' href='/favicon.ico'>
@@ -13,8 +12,16 @@
 		<div class='container'>
 			<div class='header'>
 				<img src='/assets/images/header.jpg' class='header-banner' alt='{{ site.name }}'>
+				<ul class='navigation'>
+					{% for item in site.navigation %}
+					<li><a href='{{ item.url }}'>{{ item.label }}</a></li>
+					{% endfor %}
+				</ul>
 			</div>
-			{{ content }}
+
+			<div class='content'>
+				{{ content }}
+			</div>
 		</div>
 	</body>
 </html>

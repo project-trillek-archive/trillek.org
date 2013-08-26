@@ -1,3 +1,10 @@
 name: Trillek
 markdown: redcarpet
 pygments: true
+navigation:
+  - label: forum
+    url: http://forum.trillek.org/
+  - label: blog
+    url: http://blog.trillek.org/
+  - label: wiki
+    url: http://wiki.trillek.org/

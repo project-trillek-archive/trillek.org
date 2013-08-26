@@ -5,3 +5,10 @@
 .header {
 	@include span-columns($total-columns);
 }
+
+.content {
+	$padding: ($total-columns - $content-columns) / 2;
+
+	@include span-columns($content-columns, $total-columns);
+	@include pad($padding, $padding);
+}
