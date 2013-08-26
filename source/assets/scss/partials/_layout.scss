@@ -30,3 +30,39 @@
 	padding: 30px 0;
 	text-align: right;
 }
+
+@media screen and (max-width: 980px) {
+	.content {
+		$padding: 0;
+		$original-padding: ($total-columns - $content-columns) / 2;
+		$main-columns: $total-columns - $sidebar-columns;
+
+		@include span-columns($total-columns);
+		@include pad($padding, $padding);
+
+		.main {
+			@include span-columns($main-columns, $total-columns);
+		}
+
+		.sidebar {
+			@include span-columns($sidebar-columns omega, $total-columns);
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.content {
+		$padding: 0;
+
+		@include span-columns($total-columns);
+		@include pad($padding, $padding);
+
+		.main {
+			@include span-columns($total-columns, $total-columns);
+		}
+
+		.sidebar {
+			@include span-columns($total-columns, $total-columns);
+		}
+	}
+}

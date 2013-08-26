@@ -19,8 +19,8 @@ irc:
           - trillek-blah
       -   - trillek-art
 links:
-  -   - http://forum.trillek.org/
-      - http://wiki.trillek.org/
-  -   - http://blog.trillek.org/
-      - http://www.reddit.com/r/trillek
-  -   - https://github.com/trillek-team
+  - http://forum.trillek.org/
+  - http://wiki.trillek.org/
+  - http://blog.trillek.org/
+  - http://www.reddit.com/r/trillek
+  - https://github.com/trillek-team
