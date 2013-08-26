@@ -1,6 +1,9 @@
 name: Trillek
 markdown: redcarpet
 pygments: true
+analytics:
+    label: trillek.org
+    code: UA-43144655-4
 navigation:
   - label: forum
     url: http://forum.trillek.org/
