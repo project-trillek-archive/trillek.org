@@ -18,5 +18,5 @@ compass-server:
 jekyll-server:
 	jekyll serve --watch ${JEKYLL_ARGS}
 
-deploy:
+deploy: jekyll
 	./deploy.sh
