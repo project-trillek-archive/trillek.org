@@ -22,6 +22,8 @@ Now you can work within the `source` directory without worrying about rebuilding
 
 You can execute `make deploy` to send the site to the server. This command will simply execute the local `deploy.sh` file that you have to create; this allows you to select how and where you deploy to. The build tools will be executed when you deploy and it's results stored within the `build` directory. Your script should simply upload it's contents.
 
+You can copy `deploy.example.sh` and configure that to get up and running quickly. The example script uses rsync over SSH to deploy to a remote directory.
+
 [trillek.org]: http://trillek.org/
 [marciiF]: https://cssu.in/
 [Jekyll]: http://jekyllrb.com/
