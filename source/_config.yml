@@ -7,10 +7,12 @@ analytics:
 navigation:
   - label: forum
     url: http://forum.trillek.org/
-  - label: blog
-    url: http://blog.trillek.org/
   - label: wiki
     url: http://wiki.trillek.org/
+  - label: blog
+    url: http://blog.trillek.org/
+  - label: logs
+    url: http://logs.trillek.org/
 irc:
     server: irc.freenode.net
     channels:
@@ -25,5 +27,6 @@ links:
   - http://forum.trillek.org/
   - http://wiki.trillek.org/
   - http://blog.trillek.org/
+  - http://logs.trillek.org/
   - http://www.reddit.com/r/trillek
   - https://github.com/trillek-team
