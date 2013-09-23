@@ -15,6 +15,7 @@ navigation:
     url: http://logs.trillek.org/
 irc:
     server: irc.freenode.net
+    main_channel: project-trillek
     channels:
       -   - trillek
           - trillek-writers
