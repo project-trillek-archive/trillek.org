@@ -16,14 +16,6 @@ navigation:
 irc:
     server: irc.freenode.net
     main_channel: project-trillek
-    channels:
-      -   - trillek
-          - trillek-writers
-      -   - trillek-dev
-          - trillek-sound
-      -   - trillek-dcpu
-          - trillek-blah
-      -   - trillek-art
 links:
   - http://forum.trillek.org/
   - http://wiki.trillek.org/

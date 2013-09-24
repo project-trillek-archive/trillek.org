@@ -9,19 +9,7 @@ layout: default
 
 <div class='sidebar'>
 	<h2>{{ site.irc.server }}</h2>
-	<p>Come and chat with us in <strong>#{{ site.irc.main_channel }}</strong>, we also have a host of legacy channels for when it's busy.<p>
-	<table>
-		<tbody>
-			{% for row in site.irc.channels %}
-			<tr>
-				{% for channel in row %}
-				<td>#{{ channel }}</td>
-				{% endfor %}
-			</tr>
-			{% endfor %}
-		</tbody>
-	</table>
-	<p>You can view previous logs for these channels at <a href='http://logs.trillek.org/'>logs.trillek.org</a>.</p>
+	<p>Come and chat with us in <strong>#{{ site.irc.main_channel }}</strong>. You can view previous logs at <a href='http://logs.trillek.org/'>logs.trillek.org</a>.</p>
 
 	<h2>Useful links</h2>
 	<ul>
