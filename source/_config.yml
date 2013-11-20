@@ -17,12 +17,21 @@ irc:
     server: irc.freenode.net
     main_channel: project-trillek
 links:
-  - http://forum.trillek.org/
-  - http://wiki.trillek.org/
-  - http://blog.trillek.org/
-  - http://logs.trillek.org/
-  - http://www.reddit.com/r/trillek
-  - https://github.com/trillek-team
-  - https://groups.google.com/forum/#!forum/trillek
-  - https://soundcloud.com/groups/trillek
-  - https://plus.google.com/communities/105421959511147849143
+  - label: Forum
+    url: http://forum.trillek.org/
+  - label: Wiki
+    url: http://wiki.trillek.org/
+  - label: Blog
+    url: http://blog.trillek.org/
+  - label: Logs
+    url: http://logs.trillek.org/
+  - label: Subreddit (/r/trillek)
+    url: http://www.reddit.com/r/trillek
+  - label: GitHub organisation
+    url: https://github.com/trillek-team
+  - label: Google group (mailing list)
+    url: https://groups.google.com/forum/#!forum/trillek
+  - label: SoundCloud group
+    url: https://soundcloud.com/groups/trillek
+  - label: Google+ community
+    url: https://plus.google.com/communities/105421959511147849143

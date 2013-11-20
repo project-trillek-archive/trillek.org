@@ -14,7 +14,7 @@ layout: default
 	<h2>Useful links</h2>
 	<ul>
 		{% for link in site.links %}
-		<li><a href='{{ link }}'>{{ link }}</a></li>
+		<li><a href='{{ link.url }}'>{{ link.label }}</a></li>
 		{% endfor %}
 	</ul>
 
