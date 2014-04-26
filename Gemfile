@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 gem 'jekyll'
+gem 'redcarpet'
 gem 'sass'
 gem 'compass'
 gem 'compass-normalize-plugin'
