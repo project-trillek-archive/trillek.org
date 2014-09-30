@@ -3,7 +3,7 @@ layout: home
 title: Greetings and Salutations!
 ---
 
-Allow me to introduce Project Trillek, a game inspired by Notch's 0x10<sup>c</sup>.
+Allow me to introduce Project Trillek.
 
 A reimagining of the Sci-fi sandbox. Armed with your trusty ship, its TR3200-based control system and a weapon or six, you too can set out to explore the Universe in a way few have ever dared to attempt. Only you can forge your destiny in Trillek's brave new world.
 
