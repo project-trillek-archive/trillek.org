@@ -7,16 +7,16 @@ DEPLY_SCRIPT=./deploy.sh
 default: jekyll
 
 compass:
-	compass compile ${COMPASS_DIR}
+	bundle exec compass compile ${COMPASS_DIR}
 
 jekyll: compass
-	jekyll build ${JEKYLL_ARGS}
+	bundle exec jekyll build ${JEKYLL_ARGS}
 
 compass-server:
-	compass watch ${COMPASS_DIR}
+	bundle exec compass watch ${COMPASS_DIR}
 
 jekyll-server:
-	jekyll serve --watch ${JEKYLL_ARGS}
+	bundle exec jekyll serve --watch ${JEKYLL_ARGS}
 
 deploy: jekyll
 	./deploy.sh
